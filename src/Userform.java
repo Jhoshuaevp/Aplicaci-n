@@ -74,7 +74,7 @@ public class Userform extends JFrame {
             UserDao.updateUser(idField.getText(), nameField.getText(), emailField.getText());
             JOptionPane.showMessageDialog(this, "Usuario actualizado");
         } catch (IOException e) {
-            JOptionPane.showMessageDialog(this, "Error al actualizar usuario");
+            JOptionPane.showMessageDialog(this, "Error al actualizar usuario elegido ");
         }
     }
 
